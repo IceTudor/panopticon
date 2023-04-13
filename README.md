@@ -1,7 +1,7 @@
 <p align="center" style="margin-bottom: 0px !important;"> 
     <img src="https://media.discordapp.net/attachments/1091518775297323099/1096065421632872478/panopticon.png" width=200>
 </p>
-<h1 align="center" style="font-size:48px"> Black Mesa</h1>
+<h1 align="center" style="font-size:48px"><b><u><i>PANOPTICON</i></u></b></h1>
 
 <div align="center">
 </div>
