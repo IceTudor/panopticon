@@ -1,2 +1,1 @@
-pub mod structs;
-pub mod mongodb;
+pub mod mongo;

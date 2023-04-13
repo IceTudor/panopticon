@@ -1,6 +1,4 @@
-pub mod structs;
-pub mod config;
+pub mod administration;
+pub mod commands;
+pub mod misc;
 pub mod moderation;
-pub mod permissions;
-pub mod router;
-pub mod utils;

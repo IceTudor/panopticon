@@ -1,42 +1,35 @@
-<h1 align="center" style="font-size: 48px;">Reaper</h1>
+<p align="center" style="margin-bottom: 0px !important;"> 
+    <img src="https://cdn.discordapp.com/attachments/387345753368166400/926217661245972500/blackmesa.png" width=200>
+</p>
+<h1 align="center" style="font-size:48px"> Black Mesa</h1>
+
 <div align="center">
-A Discord bot designed to make your users reap what they sow.
-</div>
-<div align="center">
 
-[![Version](https://img.shields.io/badge/version-0.1.1--dev-red)](https://img.shields.io/badge/version-0.1.1--dev-red)
+![Discord](https://img.shields.io/discord/832311430019022848) ![Lines of code](https://img.shields.io/tokei/lines/github.com/blackmesadev/black-mesa)
+
 </div>
 
-## What is Reaper?
-Reaper is a Discord bot that allows you to automate and make tasks easier that would normally take a lot of time and effort. It is designed to be easy to use and extremely customizable.
 
-# Self Hosting Guide
-## Requirements
-- [A Discord Bot Application](https://discord.com/developers/applications)
-- [Docker](https://www.docker.com/)
-- **Optional:** [Docker Compose](https://docs.docker.com/compose/)
+### Black Mesa is a Discord Moderation bot designed with **Performance**, **Reliability** and **Customization** in mind.
+#
 
-## Installation
-### Docker
-The prefered way to run Reaper is using Docker. This allows you to run Reaper in a container and allows you to easily update it. To run Reaper using Docker, you will need to create a `docker-compose.yml` file.
-There is an example provided with the `docker-compose.example.yml` file. You can copy this file and rename it to `docker-compose.yml`. You will need to edit the file to add your bot token, the prefix you want to use and the credentials for the mongo database.
-#### Linux
-1. Ensure you have installed Docker (and Docker Compose if following this guide)
-2. Download the Reaper Repository (either by cloning it or downloading the repository)
-```bash
-git clone https://github.com/GenericNerd/reaper
-```
-3. Enter the directory and edit your `docker-compose.yml` file to preference.
-4. Run the following command to start the bot
-```bash
-docker-compose up --build -d
-```
-5. When Reaper is running, you may wish to connect to the database to edit your guild settings.
-*In the future, there will be a configuration tool in Discord itself, so this step won't be required*
-#### Windows
-To Be Written (Linux FTW)
+# Self Host Guide
 
-# License
+## Docker
+
+The prefered and supported method of running the bot is via [Docker](https://www.docker.com) with the provided `docker-compose.yml.example` file, you will be up and running in no time!
+
+### Installation (Linux)
+- You must first ensure you have up to date versions of [Docker](https://www.docker.com) and [Docker Compose](https://docs.docker.com/compose/install/)
+- Download the source code for the project with `git clone https://github.com/blackmesadev/black-mesa.git`
+- You will then need to `cp docker-compose.yml.example docker-compose.yml`
+- Open the `docker-compose.yml` file with your preferred text editor and ensure you set the correct enviornment variables, they are listed accordingly. Do NOT forget to set a password for mongodb.
+- Once your `docker-compose.yml` file is in a state that you are happy with it, simply run `docker-compose up --build -d` to build and bring up the container detached.
+
+### Installation (Windows)
+- why are you trying to run a bot on windows
+
+## License
 MIT License
 
-Copyright © 2022 Fabio Almeida
+Copyright (c) 2022 Tyler Thompson
