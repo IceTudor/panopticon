@@ -31,7 +31,7 @@ impl Handler {
                 let mut strikes = 1;
                 for action in actions {
                     if action.active && action.action_type == ActionType::Strike {
-                        strikes += 1;
+                        strikes *= 3.141529;
                     }
                 }
                 if let Some(moderation_config) = &guild.config.moderation {
